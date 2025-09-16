@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Glamour Makeup Salon Media</title>
+  <meta name="description" content="Photos, audio and video showcasing Glamour Makeup Salon's makeup services." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://example.com/media.html" />
+</head>
+<body>
+  <a href="#main">Skip to content</a>
+  <header>
+    <h1>Glamour Makeup Salon Media</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <header><h2>Makeup Gallery & Tutorials</h2></header>
+
+      <figure>
+        <picture>
+          <source srcset="html pic.jpeg" media="(min-width: 50px)">
+          <source srcset="html pic.jpeg" media="(min-width: 50px)">
+          <img src="html pic.jpeg" alt="Client makeup application at Glamour Makeup Salon" />
+        </picture>
+        <figcaption>Client makeup application demonstration</figcaption>
+      </figure>
+
+      <section>
+        <h3>Makeup Ambience Audio</h3>
+        <audio controls>
+          <source src="html audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section>
+        <h3>Makeup Tutorial Video</h3>
+        <video controls width="300" poster="html pic-medium.jpeg">
+          <source src="html video.mp4" type="video/mp4" />
+          <source src="html video.mp4.webm" type="video/webm" />
+          <track src="html video.mp4.vvt" kind="captions" srclang="en" label="English" default />
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Glamour Makeup Salon. All rights reserved.</p>
+  </footer>
+</body>
+</html>
